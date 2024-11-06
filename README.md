@@ -8,10 +8,10 @@ Banco de Dados: Conexão com o MySQL, utilizando Entity Framework para gerenciar
 
 # Modelos
 ## Pessoa: Representa as informações dos clientes, contendo os campos:
-Id: Identificador único.
-Nome: Nome do cliente.
-Telefone: Número de telefone.
-Email: Endereço de e-mail.
+- Id: Identificador único.
+- Nome: Nome do cliente.
+- Telefone: Número de telefone.
+- Email: Endereço de e-mail.
 
 ## Produto: Representa os produtos disponíveis no PetShop, contendo os campos:
 - Id: Identificador único.
