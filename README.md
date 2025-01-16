@@ -1,10 +1,13 @@
 # Projeto PetShop API
-Este projeto consiste em uma API para um sistema de gerenciamento de um PetShop, desenvolvida em C# utilizando o framework .NET. A API se comunica com um banco de dados MySQL e está integrada com um front-end em React.
+Este projeto consiste em uma API para um sistema de gerenciamento de um PetShop, desenvolvida em C# utilizando o framework .NET.<br>
+A API se comunica com um banco de dados MySQL e está integrada com um front-end em React.
 
 # Funcionalidades
-CORS: Configuração para permitir solicitações do front-end hospedado em http://localhost:3000.<br>
-Swagger: Documentação da API disponível para visualização em http://localhost:xxxx/swagger/index.html, facilitando o teste dos endpoints.<br>
-Banco de Dados: Conexão com o MySQL, utilizando Entity Framework para gerenciar os dados.<br>
+<b>Swagger</b>: Documentação da API disponível para visualização em http://localhost:xxxx/swagger/index.html, facilitando o teste dos endpoints.<br><br>
+<b>CORS</b>: Configuração para permitir solicitações do front-end hospedado em http://localhost:3000.<br><br>
+<b>Banco de Dados</b>: Conexão com o MySQL, utilizando Entity Framework para gerenciar os dados.<br><br>
+<b>React Router</b>: Navegação entre os componentes.<br><br>
+<b>Axios: é uma biblioteca JavaScript que permite fazer requisições HTTP em navegadores e servidores Node.js de forma mais dinâmica <br><br>
 
 # Modelos
 ## Pessoa: Representa as informações dos clientes, contendo os campos:
@@ -39,7 +42,7 @@ Clone o repositório:
 ## Restaure as dependências do projeto:
 ### Parte C#:
 Configure o banco de dados MySQL.<br>
-Crie um banco de dados mysql com o nome que preferir e configure a string de conexão no Program.cs com suas credenciais.
+Crie um banco de dados mysql com o nome que preferir e configure a string de conexão no Program.cs com suas credenciais. <br>
 
 Execute a aplicação:
 - dotnet run
